@@ -1,0 +1,29 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+:root{
+    --bg-color: #fff;
+    --text-color:#000;
+    --secound-color:#a09dab;
+    --main-color:#f75023;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font:1.1rem;
+    --violet:#422040;
+    --vert:#BCD8C1;
+    --vanille:#D6DBB2;
+    --jaune:#E3D985;
+    --orange:#E57A44;
+}
