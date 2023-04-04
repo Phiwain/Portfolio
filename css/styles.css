@@ -423,3 +423,112 @@ margin-bottom: 30px;
     will-change: transform;
     transform: perspective(1000px) rotateX(5deg) rotateY(10deg) scale3d(1.05,1.05,1.05) ;
 }
+
+
+/* Work */
+
+.heading {
+    text-align: center;
+}
+
+
+.cta-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.wrap {
+    background: #ffffff;
+    background: #ffffff;
+    box-shadow: 18px 0px 87px 0px rgba(10, 15, 70 , 7%);
+    border-radius: 10px;
+    padding: 50px;
+    transition: ease-in-out 0.45s;
+    cursor: pointer;
+}
+
+.one {
+    background: var(--jaune);
+}
+.two {
+    background: var(--vert);
+}
+.three {
+    background: var(--vanille);
+}
+
+.wrap:hover{
+    will-change: transform;
+    transform: perspective(1000px) rotateX(5deg) rotateY(10deg) scale3d(1.05,1.05,1.05) ;
+}
+
+/* Contact */
+
+.contact{
+    background: var(--violet);
+    width: 64%;
+    margin: 100px auto;
+    padding: 70px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.center h3{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 3px;
+    color: white;
+}
+
+.center p {
+    font-size: var(--p-font);
+    color: white;
+    line-height: 1.8em;
+    margin-bottom: 2em;
+}
+
+.contact .action form input[type="email"]{
+    max-width: 100%;
+    width: 475px;
+    padding: 12px 15px;
+    background: white;
+    color: black;
+    border: none;
+    outline: none;
+    margin: 0 10px 20px 0px;
+    border-radius: 30px;
+}
+
+.contact .action form input[type="submit"]{
+    padding: 12px 40px;
+    background: var(--orange);
+    color: white;
+    border: none;
+    outline: none;
+    margin: 0 10px 20px 0px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.contact .action form input[type="submit"]:hover{
+    scale: 1.1;
+}
+
+/* Copyright */
+
+.copyright{
+    text-align: center;
+    padding: 40px;
+}
+
+.copyright p {
+    font-size: var(--p-font);
+    letter-spacing: 1px;
+}
